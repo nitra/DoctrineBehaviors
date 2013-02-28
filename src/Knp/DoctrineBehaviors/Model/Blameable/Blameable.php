@@ -31,10 +31,4 @@ trait Blameable
      * by BlameableListener
      */
     private $updatedBy;
-
-    /**
-     * Will be mapped to either string or user entity
-     * by BlameableListener
-     */
-    private $deletedBy;
 }
