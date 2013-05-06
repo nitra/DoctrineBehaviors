@@ -24,17 +24,17 @@ trait Node
     /**
      * @param Collection the children in the tree
      */
-    private $childNodes;
+    protected $childNodes;
 
     /**
      * @param NodeInterface the parent in the tree
      */
-    private $parentNode;
+    protected $parentNode;
 
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $materializedPath = '';
+    protected $materializedPath = '';
 
     /**
      * Returns path separator for entity's materialized path.

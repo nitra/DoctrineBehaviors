@@ -24,11 +24,11 @@ trait Blameable
      * Will be mapped to either string or user entity
      * by BlameableListener
      */
-    private $createdBy;
+    protected $createdBy;
 
     /**
      * Will be mapped to either string or user entity
      * by BlameableListener
      */
-    private $updatedBy;
+    protected $updatedBy;
 }
